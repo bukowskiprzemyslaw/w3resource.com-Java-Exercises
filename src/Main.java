@@ -1,11 +1,13 @@
-/* 1. Write a Java program to print 'Hello' on screen and then print your name on a separate line.
+/* 2. Write a Java program to print the sum of two numbers.
+Test Data:
+74 + 36
 Expected Output :
-Hello
-Alexandra Abramov */
+110 */
 
 public class Main {
     public static void main(String[] args) {
 
-        System.out.println("Hello\nALexandra Abramov");
+        System.out.println(74+36);
+
     }
 }
