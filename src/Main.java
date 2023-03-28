@@ -1,22 +1,27 @@
-/* 4. Write a Java program to print the result of the following operations.
+/*
+5. Write a Java program that takes two numbers as input and display the product of two numbers.
 Test Data:
-a. -5 + 8 * 6
-b. (55+9) % 9
-c. 20 + -3*5 / 8
-d. 5 + 15 / 3 * 2 - 8 % 3
+Input first number: 25
+Input second number: 5
 Expected Output :
-43
-1
-19
-13*/
+25 x 5 = 125
+*/
+
+import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
 
-        System.out.println(-5 + 8 * 6);
-        System.out.println((55+9) % 9);
-        System.out.println(20 + -3 * 5 / 8);
-        System.out.println(5 + 15 / 3 * 2 - 8 % 3);
+        Scanner input = new Scanner(System.in);
+
+        System.out.println("Input first number");
+        int number1 = input.nextInt();
+
+        System.out.println("Input second number");
+        int number2 = input.nextInt();
+
+        System.out.println("First number multiply by second number is equal");
+        System.out.println(number1 * number2);
 
     }
 }
