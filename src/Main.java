@@ -1,15 +1,23 @@
 /*
-10. Write a Java program to compute a specified formula.
-Specified Formula :
-4.0 * (1 - (1.0/3) + (1.0/5) - (1.0/7) + (1.0/9) - (1.0/11))
+11. Write a Java program to print the area and perimeter of a circle. Go to the editor
+Test Data:
+Radius = 7.5
 Expected Output
-2.9760461760461765
+Perimeter is = 47.12388980384689
+Area is = 176.71458676442586
 */
 
 public class Main {
+
+    private static final double radius = 7.5;
+
     public static void main(String[] args) {
 
-        System.out.println(4.0 * (1 - (1.0/3) + (1.0/5) - (1.0/7) + (1.0/9) - (1.0/11)));
+            double perimeter = 2 * Math.PI * radius;
+            double area = Math.PI * radius * radius;
 
-    }
+            System.out.println("Perimeter is = " + perimeter);
+            System.out.println("Area is = " + area);
+    };
+
 }
