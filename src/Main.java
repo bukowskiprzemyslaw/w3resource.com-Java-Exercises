@@ -1,15 +1,15 @@
 /*
-9. Write a Java program to compute the specified expressions and print the output.
-Test Data:
-((25.5 * 3.5 - 3.5 * 3.5) / (40.5 - 4.5))
+10. Write a Java program to compute a specified formula.
+Specified Formula :
+4.0 * (1 - (1.0/3) + (1.0/5) - (1.0/7) + (1.0/9) - (1.0/11))
 Expected Output
-2.138888888888889
+2.9760461760461765
 */
 
 public class Main {
     public static void main(String[] args) {
 
-        System.out.println((25.5 * 3.5 - 3.5 * 3.5) / (40.5 - 4.5));
+        System.out.println(4.0 * (1 - (1.0/3) + (1.0/5) - (1.0/7) + (1.0/9) - (1.0/11)));
 
     }
 }
